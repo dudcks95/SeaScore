@@ -5,12 +5,12 @@
   - 해양누리 API와 기상청 웹 크롤링으로 데이터 축적
 
 - data_parse.py : 해양누리 api를 사용해서 10년치 데이터 생성
- - numpy, pandas 등 사용
+  - numpy, pandas 등 사용
  
 - Sea_score.py : 가중치 계산용
 
 - prediction_graph.py : 학습데이터와 테스트 데이터를 나눈 후 예측 정확도 계산 
- - 시계열 모델인 LSTM 모델 사용
- - 그래프 작성을 위한 matplotlib
+  - 시계열 모델인 LSTM 모델 사용
+  - 그래프 작성을 위한 matplotlib
 
 (중간중간 비는 데이터가 많아서 정확도는 보장하지못함, 예측모델 실습용 프로젝트)
